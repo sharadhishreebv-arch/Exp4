@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Mavan Bulid
 
 on:
   push:
@@ -23,4 +23,4 @@ jobs:
         cache: maven
 
     - name: Build and test with Maven
-      run: mvn clean test
+      run: mvn clean package
