@@ -19,4 +19,7 @@ public class AppTest {
     void testSubtract() {
         assertEquals(15, app.sub(20, 5));
     }
+    void testmultiply() {
+        assertEquals(100, app.mul(20, 5));
+    }
 }
